@@ -13,7 +13,7 @@ provider "aws" {
   region = "us-east-1"
 }
 
-# Definindo a função Lambdayes
+# Definindo a função Lambda
 resource "aws_lambda_function" "auth_lambda" {
   filename         = "lambda.zip"  
   function_name    = "auth_lambda" 
@@ -47,5 +47,5 @@ EOF
 resource "aws_iam_policy_attachment" "lambda_execution" {
   name       = "lambda-execution-policy"
   roles      = [aws_iam_role.lambda_exec.name]
-  policy_arn = "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"  # Ou qualquer outra política necessária para a execução da sua função Lambda
+  policy_arn = "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
 }

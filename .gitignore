@@ -133,4 +133,3 @@ out
 terraform.tfstate
 terraform.tfstate.backup
 .terraform
-lambda.zip

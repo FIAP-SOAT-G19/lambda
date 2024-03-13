@@ -2,10 +2,6 @@ resource "null_resource" "create_lambda_zip" {
   triggers = {
     always_run = timestamp()
   }
-
-  provisioner "local-exec" {
-    command = "cd dist && zip -r ../lambda.zip index.js response.js && cd .. && zip -r lambda.zip node_modules"
-  }
 }
 
 provider "aws" {

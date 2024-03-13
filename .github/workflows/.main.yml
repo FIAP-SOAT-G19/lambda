@@ -3,7 +3,7 @@ name: Terraform Deploy
 on:
   push:
     branches:
-      - chore/add-action
+      - main
 
 jobs:
   deploy:

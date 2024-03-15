@@ -1,7 +1,7 @@
-# 💬 Tech Challenge - Postgres RDS
+# 💬 Tech Challenge - Lambda
 
 ## ✳️ Sobre
-O **Tech Challenge** é um projeto de um sistema de autoatendimento de fast food, que é composto por uma série de dispositivos e interfaces que permitem aos clientes selecionar e fazer pedidos sem precisar interagir com um atendente. Esse repositório contém a IAC(Infraestrutura com código) do cluster AWS-EKS para utilização da aplicação.
+O **Tech Challenge** é um projeto de um sistema de autoatendimento de fast food, que é composto por uma série de dispositivos e interfaces que permitem aos clientes selecionar e fazer pedidos sem precisar interagir com um atendente. Esse repositório contém a função Lambda utilizada para realizar a autenticação de usuários.
 
 ---
 
@@ -14,7 +14,7 @@ O **Tech Challenge** é um projeto de um sistema de autoatendimento de fast food
 - Clone o projeto
 
   ```bash
-  git clone https://github.com/FIAP-SOAT-G19/db-tf.git
+  git clone https://github.com/FIAP-SOAT-G19/lambda.git
   ````
 ---
 
